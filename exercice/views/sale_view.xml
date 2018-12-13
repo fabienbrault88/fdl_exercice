@@ -10,7 +10,13 @@
             <field name="arch" type="xml">
 
                 <xpath expr="//notebook/page/field[@name='note']" position="after">
+                    <hr/>
+                    <label for="exercice"/>
                     <field name="exercice"/>
+                    <label for="compute_exercice"/>
+                    <field name="compute_exercice"/>
+                    <label for="relation_exercice"/>
+                    <field name="relation_exercice"/>
                 </xpath>
 
             </field>
