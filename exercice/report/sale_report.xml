@@ -2,11 +2,9 @@
 <odoo>
     
     <template id="fdl_exercice_sale_report_saleorder_document" inherit_id="sale.report_saleorder_document">
-    	<!-- Afficher ce champ dans le rapport lié (quotation/sale order dans le menu imprimer). -->
-    	<!-- Le contenu du champ doit être affiché dans la langue du client. -->
-        <!-- <xpath expr="//div/pd[@t-field='doc.note']" position="after">
+        <xpath expr="//div/p[@t-field='doc.note']" position="after">
             <p t-field="doc.exercice" />
-        </xpath> -->
+        </xpath>
     </template>
 
 </odoo>
